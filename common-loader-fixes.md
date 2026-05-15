@@ -9,7 +9,7 @@ If the loader closes on the black CMD window and does not open, please:
 
 ## Getting this error or a similar one?
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/enU2DFUnczlctJK5JsbA?alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="/files/enU2DFUnczlctJK5JsbA" alt=""><figcaption></figcaption></figure>
 
 * Easy fix! In your spoofer folder, go into the "Requirements" folder, and run the "install vcruntimes.bat" file. Make sure you DO NOT RUN it as admin, simply just double click it and run it normally. Once it finishes up, retry the loader and the error should not occur.
 

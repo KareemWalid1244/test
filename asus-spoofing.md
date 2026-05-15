@@ -6,17 +6,17 @@ Once done, press: Windows key + Shift + S, and take a **screenshot** of the **FU
 
 **Send your screenshot in the ticket (Ctrl + V). (THIS IS NOT A RECOMMENDATION, OUR SUPPORT MUST CONFIRM IF EVERYTHING IS GOOD OR NOT, NOT YOU!)**
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/qnfHPooTg0kKKPPWKN1l?alt=media" alt=""><figcaption><p>Example</p></figcaption></figure>
+<figure><img src="/files/qnfHPooTg0kKKPPWKN1l" alt=""><figcaption><p>Example</p></figcaption></figure>
 
 Proceed to press the **Windows key + R**, and then type **msinfo32** and press enter, then send a **screenshot** of the **Full** window into the ticket like so:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/47OQLli0uwVEtNVI0lNG?alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="/files/47OQLli0uwVEtNVI0lNG" alt=""><figcaption></figcaption></figure>
 
 Wait for staff's **confirmation** before continuing.
 
 Now, download [this .bat file](https://mega.nz/file/VmRDgRZQ#9JRFGkMpknrN7Wo6VKKBY7SH-5sW4oEb_TfGJ-OOQIU) and run it as admin. After the CMD window closes, your "This PC" section of file explorer should look something like this, with a separate partition named "EEEEEEE".
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/sL7udHVffvCItuXMiHLo?alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="/files/sL7udHVffvCItuXMiHLo" alt=""><figcaption></figcaption></figure>
 
 If your file explorer matches, **continue with the steps below.**
 
@@ -34,13 +34,13 @@ Now, boot into BIOS by doing the following:
 
 * **Hold the shift key as you click "Restart", like this image indicates**
 
-<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/lP1rzfGRPqibDxUo2JNp/image.webp?alt=media&token=be4c571b-7a27-4fa8-8a5e-8aab8a49c8e5" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FlP1rzfGRPqibDxUo2JNp%252Fimage.webp%3Falt%3Dmedia%26token%3Dbe4c571b-7a27-4fa8-8a5e-8aab8a49c8e5&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=494c8415&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 * **Select 'Troubleshoot' then select "UEFI Firmware Settings", and click "Restart".**
 
-<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/attUAVcnbEMYi8A7orcT/troubleshoot.webp?alt=media&token=aa0df94e-d9a6-4ce4-8706-c38d24b04775" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FattUAVcnbEMYi8A7orcT%252Ftroubleshoot.webp%3Falt%3Dmedia%26token%3Daa0df94e-d9a6-4ce4-8706-c38d24b04775&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=82b3af49&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/k7wbshIubj6JYYmyiFCR/Rzd3vwjVqwfZoZBVBBWSw.jpg?alt=media&token=58792a9a-9e3e-42bd-848c-a92ad5be6720" alt=""><figcaption><p>Click UEFI Firmware Settings, then click "Restart"</p></figcaption></figure>
+<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252Fk7wbshIubj6JYYmyiFCR%252FRzd3vwjVqwfZoZBVBBWSw.jpg%3Falt%3Dmedia%26token%3D58792a9a-9e3e-42bd-848c-a92ad5be6720&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=d6c99557&#x26;sv=2" alt=""><figcaption><p>Click UEFI Firmware Settings, then click "Restart"</p></figcaption></figure>
 
 * **After it's completed the restart, your PC will boot into BIOS. Please switch from EZ Mode to Advanced Mode, then navigate to the "Boot" tab. Go into the "Secure Boot" section, then follow these 3 incredibly important drop-downs:**
 
@@ -60,7 +60,7 @@ Go to Boot > Secure Boot > OS Type **\[Windows UEFI]** & Secure Boot Mode **\[Cu
 
 Go into the "Key Management" section, and click "Clear Secure Boot Keys" at the top. Then, click "Install Default Secure Boot Keys". It should NOT look like this image below. Make sure they all say "Default/Factory" and NOT "0 | No Keys".  If it does look like this, click "Install Default Secure Boot Keys".
 
-<div align="center"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/LOtM9ZFxbi0sTYP0DxcO?alt=media" alt=""><figcaption><p><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></p></figcaption></figure></div>
+<div align="center"><figure><img src="/files/LOtM9ZFxbi0sTYP0DxcO" alt=""><figcaption><p><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></p></figcaption></figure></div>
 
 </details>
 
@@ -87,7 +87,7 @@ Now, please perform the exact same steps (from "Choose the Append Key option" an
 
 * **Go back to the starting page of the "Boot" tab, and change "Boot Option #1" to the boot option starting with "UEFI OS", and make sure "Boot Option #2" is set to "Windows Boot Manager".**
 
-<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/1OEM3eMw0TFeUgqBIYaD/image.jfif?alt=media&token=c583dfa7-55ee-4927-bd18-bc3ec753b80f" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252F1OEM3eMw0TFeUgqBIYaD%252Fimage.jfif%3Falt%3Dmedia%26token%3Dc583dfa7-55ee-4927-bd18-bc3ec753b80f&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=c0348ffd&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 * **Save and exit BIOS, and make sure you see the yellow and white text flashing on your screen before Windows boots. This is the spoofing being done, it will ALWAYS show up.**
 * After the spoofing process has finished, run the same serial checker above, and send a screenshot of the full window in the ticket, along with a screenshot of your system information (msinfo32). Then, await confirmation from staff before continuing with the guide. **(THIS IS NOT A RECOMMENDATION, OUR SUPPORT MUST CONFIRM IF EVERYTHING IS GOOD OR NOT, NOT YOU!)**

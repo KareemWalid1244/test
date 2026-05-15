@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 **If you have RAID reinstalled, this step will reset your BIOS settings on most motherboards, and give you a BSOD (Blue Screen of Death) when trying to boot Windows (Inaccessible Boot Device error, see the image below). To fix this, after flashing BIOS completes, go immediately to BIOS and switch SATA mode back to RAID + enable NVMe RAID mode if present, then save and exit. You do not need to remake the RAID arrays.**
 
-<p align="center"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/hvj45dHMzTVebqPJTvCC?alt=media" alt=""></p>
+<p align="center"><img src="/files/hvj45dHMzTVebqPJTvCC" alt=""></p>
 {% endhint %}
 
 #### **MAKE SURE TO FLASH TO A DIFFERENT VERSION THAN YOUR CURRENT BIOS VERSION (ONE VERSION UP OR ONE VERSION DOWN IS FINE, MAKE SURE IT IS COMPATIBLE WITH YOUR CPU).** <a href="#make-sure-to-flash-to-one-older-version" id="make-sure-to-flash-to-one-older-version"></a>

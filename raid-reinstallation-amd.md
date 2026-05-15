@@ -14,7 +14,7 @@ You are EITHER following this reinstallation guide, or [Windows Reinstall](/blit
 
 After the Media Creation Tool has finished, please click "Finish", wait for the window to close, then download [this file](https://mega.nz/file/47BEFIYQ#ayjjlRsHVNCNxKU0_cYxg357LCPhWAnOo1NZjl_jDRQ), and drag it to your USB flash drive along with the other Windows files. Now, your USB should look like this:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/rzXovcGcs0XTIzhaRaVN?alt=media" alt=""><figcaption><p>This is how the inside of your USB drive should look right now. This autounattend file will do a few things. It will debloat your Windows of useless apps, automatically make a local account under the username "admin", disable BitLocker which is automatically enabled on Windows 11 installations, and set your region to the US unless you set it otherwise. Feel free to tweak the configuration of the autounattend to your liking on <a href="https://schneegans.de/windows/unattend-generator/">this site</a>.</p></figcaption></figure>
+<figure><img src="/files/rzXovcGcs0XTIzhaRaVN" alt=""><figcaption><p>This is how the inside of your USB drive should look right now. This autounattend file will do a few things. It will debloat your Windows of useless apps, automatically make a local account under the username "admin", disable BitLocker which is automatically enabled on Windows 11 installations, and set your region to the US unless you set it otherwise. Feel free to tweak the configuration of the autounattend to your liking on <a href="https://schneegans.de/windows/unattend-generator/">this site</a>.</p></figcaption></figure>
 
 Now, go to [this link](https://mega.nz/file/cvAyjKab#CDgGatPKLGKj70HOlh5pwwupUnc93W_YdXwXxI-Jd1I) and download the file, "raid.7z". Then extract it, and run the "nvme sata checker.exe" and the "chipset checker.exe". (Note: If you get an error, install [VCRuntimes](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)). This will tell you two important pieces of info:
 
@@ -33,23 +33,23 @@ Using this information, continue to your corresponding RAID driver folder setup.
 
 If the chipset checker has told you that you are AM4, head into the "am4" folder. If you have only NVMe disk(s), drag the "nvme" folder to your USB. If you only have SATA disk(s), drag the "sata" folder to your USB. If you have both types of disks, drag both folders to your USB. It should look the same as one of these pictures, if done correctly:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/er0PhGx1svtmJf2GNN1W?alt=media" alt=""><figcaption><p>How your USB drive should look if you have only NVMe disks, and you are AM4</p></figcaption></figure>
+<figure><img src="/files/er0PhGx1svtmJf2GNN1W" alt=""><figcaption><p>How your USB drive should look if you have only NVMe disks, and you are AM4</p></figcaption></figure>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/TGgT9mAhY13rdozKnjjn?alt=media" alt=""><figcaption><p>How your USB drive should look if you have only SATA disks, and you are AM4</p></figcaption></figure>
+<figure><img src="/files/TGgT9mAhY13rdozKnjjn" alt=""><figcaption><p>How your USB drive should look if you have only SATA disks, and you are AM4</p></figcaption></figure>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/w2RjIgwPJ6koy2MbAnDp?alt=media" alt=""><figcaption><p>How your USB drive should look if you have both SATA and NVMe disks, and you are AM4</p></figcaption></figure>
+<figure><img src="/files/w2RjIgwPJ6koy2MbAnDp" alt=""><figcaption><p>How your USB drive should look if you have both SATA and NVMe disks, and you are AM4</p></figcaption></figure>
 
 ## AM5
 
 If the chipset checker has told you that you are AM5, head into the "am5" folder. Drag the "windows 10" folder to your USB drive. Should look like the below image:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/tR1Dkut4zMPOnhLbhcbK?alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="/files/tR1Dkut4zMPOnhLbhcbK" alt=""><figcaption></figcaption></figure>
 
 Lastly, you should go to your motherboard's site, click on "Support/Drivers", find your WLAN (if you use WiFI) or LAN driver (if you use Ethernet), then download and place it onto your USB flash drive as well. This is because the driver may not automatically install after reinstalling Windows, leaving you without internet (guaranteed to happen with WIFI (WLAN). For LAN users, this happens often for INTEL ethernet cards. Usually, REALTEK Ethernet drivers install automatically, but there are cases in which it does not, so this is recommended in any case).
 
 Before we start the BIOS settings, save your current disk serial with [this checker](https://mega.nz/file/szYByCzL#IPauPyk4JpunLvLpFPxghV5BKlrRLbHmCNGLUKv7FZc) and send the screenshot in the ticket. The screenshot should look something like this:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/Wvc4gN4OxN5iYo5vk0qT?alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="/files/Wvc4gN4OxN5iYo5vk0qT" alt=""><figcaption></figcaption></figure>
 
 Now, follow your corresponding BIOS and driver loading guide in one of the drop-downs below.
 
@@ -66,7 +66,7 @@ Now, follow your corresponding BIOS and driver loading guide in one of the drop-
 7. Select **Delete Arrays**.
 8. Enable your disk, click Delete Array(s) (use the image and caption below as reference);
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/o86n0ijcA4CPCk9z5Zcd?alt=media" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
+<figure><img src="/files/o86n0ijcA4CPCk9z5Zcd" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
 
 8. Then enable the "Confirm" option and click Apply Changes/Confirm
 9. It should now display: **No arrays found on system**.
@@ -103,7 +103,7 @@ Now, follow your corresponding BIOS and driver loading guide in one of the drop-
 10. Select **Delete Arrays**.
 11. Enable your disk, click Delete Array(s) (use the image and caption below as reference);
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/hLpBGop48jwAOjlvQy1i?alt=media" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
+<figure><img src="/files/hLpBGop48jwAOjlvQy1i" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
 
 9. Then enable the "Confirm" option and click Apply Changes/Confirm.
 10. It should now display: **No arrays found on system**.
@@ -139,7 +139,7 @@ Now, follow your corresponding BIOS and driver loading guide in one of the drop-
 9. Select **Delete Arrays**.
 10. Enable your disk, click Delete Array(s) (use the image and caption below as reference);
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/hLpBGop48jwAOjlvQy1i?alt=media" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
+<figure><img src="/files/hLpBGop48jwAOjlvQy1i" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
 
 11. Then enable the "Confirm" option and click Apply Changes/Confirm.
 12. It should now display: **No arrays found on system**.
@@ -175,7 +175,7 @@ Now, follow your corresponding BIOS and driver loading guide in one of the drop-
 9. Select **Delete Arrays**.
 10. Enable your disk, click Delete Array(s) (use the image and caption below as reference);
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/hLpBGop48jwAOjlvQy1i?alt=media" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
+<figure><img src="/files/hLpBGop48jwAOjlvQy1i" alt=""><figcaption><p>SET THE [Disabled] TO [Enabled] AND THEN CLICK "Delete Array(s)"</p></figcaption></figure>
 
 11. Then enable the "Confirm" option and click Apply Changes/Confirm.
 12. It should now display: **No arrays found on system**.

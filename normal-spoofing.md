@@ -6,11 +6,11 @@ Once done, press: Windows key + Shift + S, and take a **screenshot** of the **FU
 
 **Send your screenshot in the ticket (Ctrl + V). (THIS IS NOT A RECOMMENDATION, OUR SUPPORT MUST CONFIRM IF EVERYTHING IS GOOD OR NOT, NOT YOU!)**
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/oWurPjQ9mDkERuDHTA37?alt=media" alt=""><figcaption><p>Example</p></figcaption></figure>
+<figure><img src="/files/oWurPjQ9mDkERuDHTA37" alt=""><figcaption><p>Example</p></figcaption></figure>
 
 Proceed to press the **Windows key + R**, and then type **msinfo32** and press enter, then send a **screenshot** of the **full** window into the ticket like so:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/47OQLli0uwVEtNVI0lNG?alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="/files/47OQLli0uwVEtNVI0lNG" alt=""><figcaption></figcaption></figure>
 
 Notes for before spoofing:
 

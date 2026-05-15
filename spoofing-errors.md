@@ -11,15 +11,15 @@ Here are the solutions for this issue:
 
 * USB to Ethernet adapter (WE RECOMMEND BUYING A REALTEK ONE SO IT IS SPOOFABLE):
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/Xe5c06FAxr0aDBf0qY3E?alt=media" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="/files/Xe5c06FAxr0aDBf0qY3E" alt=""><figcaption></figcaption></figure></div>
 
 * Get a WiFi USB and use that instead (Once it gets banned, it cannot be spoofed again):
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/w6Er3m4v4woGEyYpluYg?alt=media" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="/files/w6Er3m4v4woGEyYpluYg" alt=""><figcaption></figcaption></figure></div>
 
 * Get a PCIe Ethernet NIC that you will put into your PCIe slot on your motherboard which will let you use Ethernet as normal, with a different Ethernet card than your onboard one (WE RECOMMEND BUYING A [REALTEK](https://www.amazon.com/Realtek-Chipset-Ethernet-Interface-Software/dp/B007MWYCG2) ONE SO IT IS SPOOFABLE):
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/WjQwK7NbGNDP1Uv2h7hn?alt=media" alt="" width="188"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="/files/WjQwK7NbGNDP1Uv2h7hn" alt="" width="188"><figcaption></figcaption></figure></div>
 
 * USB tethering with your phone as the "router" and a charging cable as the "Ethernet cable" ( [ARP](/blitz-perm/arp-tables-fn-tourneys-faceit-vgk/arp.md) has a detailed guide for this!). This solution requires no extra hardware.
 

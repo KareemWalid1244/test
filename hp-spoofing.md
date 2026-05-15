@@ -10,11 +10,11 @@ Once done, press: Windows key + Shift + S, and take a **screenshot** of the **FU
 
 **Send your screenshot in the ticket (Ctrl + V). (THIS IS NOT A RECOMMENDATION, OUR SUPPORT MUST CONFIRM IF IT IS GOOD OR NOT, NOT YOU!).**
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/aLQ6KQmQR4ngdeddWgkR?alt=media" alt=""><figcaption><p>Example</p></figcaption></figure>
+<figure><img src="/files/aLQ6KQmQR4ngdeddWgkR" alt=""><figcaption><p>Example</p></figcaption></figure>
 
 Proceed to press the **Windows key + R**, and then type **msinfo32** and press enter, then send a **screenshot** of the **Full** window into the ticket like so:
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/47OQLli0uwVEtNVI0lNG?alt=media" alt=""><figcaption></figcaption></figure>
+<figure><img src="/files/47OQLli0uwVEtNVI0lNG" alt=""><figcaption></figcaption></figure>
 
 Wait for staff's **confirmation** before continuing.
 
@@ -28,15 +28,15 @@ Before proceeding, please understand that the following process is irreversible 
 * In the spoofer, after clicking the spoof button, input your USB Drive letter (can be seen in the "This PC" section of file explorer) that it asks for, and wait for the process to complete.
 * After the spoofer window closes automatically, hold the SHIFT key, click Restart, and continue holding SHIFT until the restart begins.
 
-![](https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/lP1rzfGRPqibDxUo2JNp/image.webp?alt=media&token=be4c571b-7a27-4fa8-8a5e-8aab8a49c8e5\)
+![](https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FlP1rzfGRPqibDxUo2JNp%252Fimage.webp%3Falt%3Dmedia%26token%3Dbe4c571b-7a27-4fa8-8a5e-8aab8a49c8e5\&width=768\&dpr=4\&quality=100\&sign=494c8415\&sv=2)
 
 * **Select 'Use a device' and select the USB (***AKA "Flash Drive", "(USB Model Name) Partition 1" or "UEFI Removable Device"***)**
 
-![](https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/wVMwPXLHV3j1Orqi9MyX/image (1).webp?alt=media&token=dd92d656-0840-4cc4-84af-2469b8367db7\)
+![](https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FwVMwPXLHV3j1Orqi9MyX%252Fimage%2520%281%29.webp%3Falt%3Dmedia%26token%3Ddd92d656-0840-4cc4-84af-2469b8367db7\&width=768\&dpr=4\&quality=100\&sign=1586865d\&sv=2)
 
 * **Once it boots, you will see something that looks similar to this picture below:**
 
-![](https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/LHNCOpCTvIXeoaUBwHBW/image.png?alt=media&token=5ac74511-0863-4d83-bfe9-51886ea96e39\)
+![](https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FLHNCOpCTvIXeoaUBwHBW%252Fimage.png%3Falt%3Dmedia%26token%3D5ac74511-0863-4d83-bfe9-51886ea96e39\&width=768\&dpr=4\&quality=100\&sign=12c2fba\&sv=2)
 
 * After this process finishes, a popup will appear prompting; "Manufacturer Programming Mode to unlock mode?", with the options `Yes` or `No`
 * &#x20;Click `Yes`
