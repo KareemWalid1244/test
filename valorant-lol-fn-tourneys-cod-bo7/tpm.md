@@ -22,7 +22,7 @@ The TPM serial will change after flashing BIOS, if you have this security patch 
 
 <figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FFgXelr0B77Ug9LQpfgbg%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=2fd8bccf&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-Then, follow the video in [Flashing BIOS](blitz-perm/preparation/flashing-bios.md) . Please note for Intel; If available, please use your motherboard's BIOS flashback button (a physical button usually near your USB ports or on your motherboard directly) for a guaranteed chance of this working. Please make sure the version you flash to is compatible with your CPU. If the SHA256 value (refer to the above image) changes after flashing BIOS, your TPM has been spoofed.
+Then, follow the video in [Flashing BIOS](../blitz-perm/preparation/flashing-bios.md) . Please note for Intel; If available, please use your motherboard's BIOS flashback button (a physical button usually near your USB ports or on your motherboard directly) for a guaranteed chance of this working. Please make sure the version you flash to is compatible with your CPU. If the SHA256 value (refer to the above image) changes after flashing BIOS, your TPM has been spoofed.
 
 If the above method does not work, you can try our confirmed working method below. Please note:
 

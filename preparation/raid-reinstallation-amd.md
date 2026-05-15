@@ -11,7 +11,7 @@ Before continuing, we firstly **require** you to remove:
 * Aim devices such as MAKCUs, ARDUINOs etc (unplug them)
 * Your WIFI card from inside your PC if you use Ethernet and your motherboard is GIGABYTE + has AX or AC at the end of the model (e.g. B760 DS3H AC): [Helpful Video](https://www.youtube.com/watch?v=9j83rixFHxw) (On newer models such as the X870 they may give you the option to disable in BIOS. If this available to you, you don't need to take out the card).
 
-You are EITHER following this reinstallation guide, or [Windows Reinstall](blitz-perm/preparation/windows-reinstall.md). You are **not** following both, or a mix of both. Got that? Let's get your USB drive all set up with the necessary files. Firstly, run the [Windows 10 Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=2265055) (Yes, it has to be Windows 10 for RAIDing), and select all the usual options (Media Creation, USB Flashdrive).
+You are EITHER following this reinstallation guide, or [Windows Reinstall](../blitz-perm/preparation/windows-reinstall.md). You are **not** following both, or a mix of both. Got that? Let's get your USB drive all set up with the necessary files. Firstly, run the [Windows 10 Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=2265055) (Yes, it has to be Windows 10 for RAIDing), and select all the usual options (Media Creation, USB Flashdrive).
 
 {% hint style="danger" %}
 _**Please note, it MUST be Windows 10 for the media creation drive, not Windows 11. You are allowed to upgrade to Windows 11 via Windows Update AFTER you have fully reinstalled Windows 10 into your RAID array.**_
