@@ -1,6 +1,9 @@
-# COMMON LOADER FIXES
+---
+description: Common fixes for problems with the loader.
+icon: screwdriver
+---
 
-## COMMON LOADER FIXES
+# COMMON LOADER FIXES
 
 ### Is the loader closing before you get to put in your key?
 
@@ -10,6 +13,8 @@ If the loader closes on the black CMD window and does not open, please:
 * As well, sync your time within Windows date and time settings (SUPER IMPORTANT), and use a VPN to a US location. If these didn't work, try setting your timezone to a US one, then retry.
 
 ### Getting this error or a similar one?
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FtEH2pRZvxDHRwNBarB9o%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=9b12c03e&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 * Easy fix! In your spoofer folder, go into the "Requirements" folder, and run the "install vcruntimes.bat" file. Make sure you DO NOT RUN it as admin, simply just double click it and run it normally. Once it finishes up, retry the loader and the error should not occur.
 

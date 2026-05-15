@@ -1,6 +1,9 @@
-# NOTES
+---
+description: Important for AFTER spoofing.
+icon: message-exclamation
+---
 
-## NOTES
+# NOTES
 
 MAKE SURE YOU MAKE A NEW ACCOUNT AND FOLLOW ALL OF THE BELOW NOTES. IF YOU CHOOSE NOT TO, YOUR REFUND RIGHTS WILL BE VOIDED.
 

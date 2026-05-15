@@ -1,6 +1,11 @@
-# Normal Spoofing
+---
+description: >-
+  This is the page for UNLOCKED motherboards (GIGABYTE, MSI, ASRock, Lenovo,
+  Acer).
+icon: unlock
+---
 
-## Normal Spoofing
+# Normal Spoofing
 
 Firstly, please run the "Backup Serial Checker.bat" inside the spoofer folder
 
@@ -8,7 +13,11 @@ Once done, press: Windows key + Shift + S, and take a **screenshot** of the **FU
 
 **Send your screenshot in the ticket (Ctrl + V). (THIS IS NOT A RECOMMENDATION, OUR SUPPORT MUST CONFIRM IF EVERYTHING IS GOOD OR NOT, NOT YOU!)**
 
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Ftq6R3rVDHGpYHNg94PrY%2Fserial.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=ea13196f&#x26;sv=2" alt=""><figcaption><p>Example</p></figcaption></figure>
+
 Proceed to press the **Windows key + R**, and then type **msinfo32** and press enter, then send a **screenshot** of the **full** window into the ticket like so:
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Fx1MZA8kJVayzmal1jee5%2Fimage-4%5B1%5D.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=c038672f&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 Notes for before spoofing:
 

@@ -1,9 +1,16 @@
+---
+description: REQUIRED FOR VGK, RECOMMENDED FOR OTHER ANTICHEATS BUT NOT REQUIRED.
+icon: circle-bolt
+---
+
 # Flashing BIOS
 
 ## Flashing BIOS
 
 {% hint style="warning" %}
 **If you have RAID reinstalled, this step will reset your BIOS settings on most motherboards, and give you a BSOD (Blue Screen of Death) when trying to boot Windows (Inaccessible Boot Device error, see the image below). To fix this, after flashing BIOS completes, go immediately to BIOS and switch SATA mode back to RAID + enable NVMe RAID mode if present, then save and exit. You do not need to remake the RAID arrays.**
+
+<p align="center"><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FBixnTtIEygPz6FGHaUsP%2Fimage.png&#x26;width=300&#x26;dpr=1&#x26;quality=100&#x26;sign=82f0d846&#x26;sv=2" alt="" data-size="original"></p>
 {% endhint %}
 
 **MAKE SURE TO FLASH TO A DIFFERENT VERSION THAN YOUR CURRENT BIOS VERSION (ONE VERSION UP OR ONE VERSION DOWN IS FINE, MAKE SURE IT IS COMPATIBLE WITH YOUR CPU).**

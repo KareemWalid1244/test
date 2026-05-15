@@ -1,8 +1,11 @@
+---
+description: Possible errors during spoofing.
+icon: message-exclamation
+---
+
 # Spoofing Errors
 
-## Spoofing Errors
-
-### EFUSE FULL
+## EFUSE FULL
 
 If you get the "EFUSE full" error when the spoofer is spoofing your MAC address, this means:
 
@@ -12,8 +15,17 @@ If you get the "EFUSE full" error when the spoofer is spoofing your MAC address,
 Here are the solutions for this issue:
 
 * USB to Ethernet adapter (WE RECOMMEND BUYING A REALTEK ONE SO IT IS SPOOFABLE):
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Ft7SB5KW9siG7UdfZPXxR%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=6b802c22&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
 * Get a WiFi USB and use that instead (Once it gets banned, it cannot be spoofed again):
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2F4Ya2eHaPji7fGRlYpxtE%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=6ec6d006&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
 * Get a PCIe Ethernet NIC that you will put into your PCIe slot on your motherboard which will let you use Ethernet as normal, with a different Ethernet card than your onboard one (WE RECOMMEND BUYING A [REALTEK](https://www.amazon.com/Realtek-Chipset-Ethernet-Interface-Software/dp/B007MWYCG2) ONE SO IT IS SPOOFABLE):
+
+<div align="left"><figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2F1ugu8nkd6Q1PFuM6t4nb%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=a746a492&#x26;sv=2" alt=""><figcaption></figcaption></figure></div>
+
 * USB tethering with your phone as the "router" and a charging cable as the "Ethernet cable" ( [ARP](blitz-perm/arp-tables-fn-tourneys-faceit-vgk/arp.md) has a detailed guide for this!). This solution requires no extra hardware.
 
 For all solutions above, you must disable the onboard LAN controller in BIOS

@@ -1,6 +1,9 @@
-# BIOS Configurations
+---
+description: Settings to change within BIOS.
+icon: wrench
+---
 
-## BIOS Configurations
+# BIOS Configurations
 
 #### GO TO BIOS & FOLLOW THESE STEPS: <a href="#go-to-bios-and-follow-the-steps" id="go-to-bios-and-follow-the-steps"></a>
 

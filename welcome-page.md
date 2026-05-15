@@ -1,6 +1,9 @@
-# Windows Reinstall
+---
+description: Instructions on how to reinstall Windows.
+icon: windows
+---
 
-## Windows Reinstall
+# Windows Reinstall
 
 NOTE: if you would like to RAID to change your disk serial, please go to [RAID Reinstallation (AMD)](blitz-perm/preparation/raid-reinstallation-amd.md) RAID is only possible AND recommended if:
 
@@ -36,6 +39,8 @@ After the tool is finished, click **"Finish"**\
 
 Download [this file](https://mega.nz/file/47BEFIYQ#ayjjlRsHVNCNxKU0_cYxg357LCPhWAnOo1NZjl_jDRQ), then drag it to your USB flash drive along with the other Windows files. Now, your USB should look like this:
 
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Fwz95meK8k7YOoCeL30q5%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=4553b2cf&#x26;sv=2" alt=""><figcaption><p>This autounattend file will do a few things automatically. It will debloat your Windows of useless apps, automatically make a local account under the username "admin", disable BitLocker which is automatically enabled on Windows 11 installations, and set your region to the US unless you set it otherwise. Feel free to tweak the configuration of the autounattend to your liking on <a href="https://schneegans.de/windows/unattend-generator/">this site</a>.</p></figcaption></figure>
+
 Lastly, you should:
 
 * Go to your motherboard's site
@@ -59,7 +64,11 @@ While you are holding the SHIFT key, click Restart.
 * Select your **language**
 * Once you arrive at this part of the reinstallation process, please select "Custom: Install Windows only (advanced)". Some may not have this option show up. That's fine, as long as you get to the screen with the partitions (next image shown below this one).
 
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FsXe6z9h6cSXYPJ7e9EEg%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=3325009f&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
 Once on the screen below, please proceed to click "Delete" on every partition possible, until the screen looks like this:
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FX5Wb551LaMeMxp31EXmw%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=4843173d&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 Keep in mind that if you have multiple drives, 2 for example, there will be a "Drive 1 Unallocated Space" along with "Drive 0 Unallocated Space", please make sure all drives have the "Unallocated" label in their name. If you have an SSD(s) + HDD(s), make sure you select the SSD's unallocated space before clicking next, or else your PC will be mega-slow.
 

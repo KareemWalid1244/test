@@ -1,6 +1,9 @@
-# ASUS Spoofing
+---
+description: This is the page for ASUS motherboards only.
+icon: lock
+---
 
-## ASUS Spoofing
+# ASUS Spoofing
 
 Firstly, please run the "Backup Serial Checker.bat" inside the spoofer folder
 
@@ -8,11 +11,17 @@ Once done, press: Windows key + Shift + S, and take a **screenshot** of the **FU
 
 **Send your screenshot in the ticket (Ctrl + V). (THIS IS NOT A RECOMMENDATION, OUR SUPPORT MUST CONFIRM IF EVERYTHING IS GOOD OR NOT, NOT YOU!)**
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Example</p></figcaption></figure>
+
 Proceed to press the **Windows key + R**, and then type **msinfo32** and press enter, then send a **screenshot** of the **Full** window into the ticket like so:
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Fx1MZA8kJVayzmal1jee5%2Fimage-4%5B1%5D.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=c038672f&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 Wait for staff's **confirmation** before continuing.
 
 Now, download [this .bat file](https://mega.nz/file/VmRDgRZQ#9JRFGkMpknrN7Wo6VKKBY7SH-5sW4oEb_TfGJ-OOQIU) and run it as admin. After the CMD window closes, your "This PC" section of file explorer should look something like this, with a separate partition named "EEEEEEE".
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Ft5PegBOH1i0PzUFF537m%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=65dfb61e&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 If your file explorer matches, **continue with the steps below.**
 

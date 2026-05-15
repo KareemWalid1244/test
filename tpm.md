@@ -1,6 +1,9 @@
-# TPM
+---
+description: Information about TPM 2.0
+icon: microchip-ai
+---
 
-## TPM
+# TPM
 
 VALORANT/LOL, Ricochet (COD/BO7) and Fortnite (specifically in tournaments) bans/flags TPM, and requires it enabled.
 
@@ -11,7 +14,13 @@ There are ways to solve this without getting delay banned:
 * GIGABYTE, MSI, and ASRock motherboards on an INTEL CPU
 * AM4 motherboards with one of the newest BIOS patch that fixes some TPM security issues:
 
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Fhl3mBCac4x2uxgJMDoR1%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=62a811b7&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2F5mfIWQtWTrfWfMPhdj59%2Fimage.png&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=d2d4dfab&#x26;sv=2" alt=""><figcaption><p>                  Examples of what to look for, for Gigabyte it will be a "TPM-B FW" patch.</p></figcaption></figure>
+
 The TPM serial will change after flashing BIOS, if you have this security patch OR if you are GIGABYTE, MSI, and ASRock motherboards on an INTEL CPU. To check if this applies to you, enable TPM, download [this TPM checker](https://mega.nz/file/AmI2mbCL#u3CUEgrg592OyiuIwGuSwWkx28fzfriTWhOnSvYViIw), run it as admin, then send a screenshot of the output in your ticket, like so:
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FFgXelr0B77Ug9LQpfgbg%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=2fd8bccf&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 Then, follow the video in [Flashing BIOS](blitz-perm/preparation/flashing-bios.md) . Please note for Intel; If available, please use your motherboard's BIOS flashback button (a physical button usually near your USB ports or on your motherboard directly) for a guaranteed chance of this working. Please make sure the version you flash to is compatible with your CPU. If the SHA256 value (refer to the above image) changes after flashing BIOS, your TPM has been spoofed.
 
@@ -34,6 +43,8 @@ If the above method does not work, you can try our confirmed working method belo
    Change Partition Scheme from MBR to GPT.
 
 Below is an image of how it should look:
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2F6pzrVmEveFZBGbiIpkvx%2Fimage.png&#x26;width=300&#x26;dpr=1&#x26;quality=100&#x26;sign=522466f4&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 \
 If it matches, start the process and wait for it to finish.
@@ -79,5 +90,7 @@ Then copy all 7 commands below, and paste the entire thing into the terminal, th
    Power on and boot into Windows.\
    Plug the USB back in, format it, then unplug it again.
 9. Check if your TPM serials has changed (SEND THE SCREENSHOT OF NEW TPM SERIAL IN YOUR TICKET AS WELL), and check if your TPM status is "ready for use" in tpm.msc
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2Ft3wRpaUm4GOjRLJPmyY0%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=4af0565f&#x26;sv=2" alt=""><figcaption><p>Your "Status" section should look like the one in the image.</p></figcaption></figure>
 
 If all is correct, then your TPM is spoofed.

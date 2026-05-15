@@ -1,6 +1,9 @@
-# RAID Reinstallation (AMD)
+---
+description: RAID to change your disk serial. This guide is for AMD CPUs only.
+icon: windows
+---
 
-## RAID Reinstallation (AMD)
+# RAID Reinstallation (AMD)
 
 Before continuing, we firstly **require** you to remove:
 
@@ -15,6 +18,8 @@ _**Please note, it MUST be Windows 10 for the media creation drive, not Windows 
 {% endhint %}
 
 After the Media Creation Tool has finished, please click "Finish", wait for the window to close, then download [this file](https://mega.nz/file/47BEFIYQ#ayjjlRsHVNCNxKU0_cYxg357LCPhWAnOo1NZjl_jDRQ), and drag it to your USB flash drive along with the other Windows files. Now, your USB should look like this:
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FOPMBou7NHgGCGDnixWXb%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=43cadbb4&#x26;sv=2" alt=""><figcaption><p>This is how the inside of your USB drive should look right now. This autounattend file will do a few things. It will debloat your Windows of useless apps, automatically make a local account under the username "admin", disable BitLocker which is automatically enabled on Windows 11 installations, and set your region to the US unless you set it otherwise. Feel free to tweak the configuration of the autounattend to your liking on <a href="https://schneegans.de/windows/unattend-generator/">this site</a>.</p></figcaption></figure>
 
 Now, go to [this link](https://mega.nz/file/cvAyjKab#CDgGatPKLGKj70HOlh5pwwupUnc93W_YdXwXxI-Jd1I) and download the file, "raid.7z". Then extract it, and run the "nvme sata checker.exe" and the "chipset checker.exe". (Note: If you get an error, install [VCRuntimes](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)). This will tell you two important pieces of info:
 
@@ -33,13 +38,23 @@ Using this information, continue to your corresponding RAID driver folder setup.
 
 If the chipset checker has told you that you are AM4, head into the "am4" folder. If you have only NVMe disk(s), drag the "nvme" folder to your USB. If you only have SATA disk(s), drag the "sata" folder to your USB. If you have both types of disks, drag both folders to your USB. It should look the same as one of these pictures, if done correctly:
 
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FWgFF0uSVPlVRsJZobXvP%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=d267ad3&#x26;sv=2" alt=""><figcaption><p>How your USB drive should look if you have only NVMe disks, and you are AM4</p></figcaption></figure>
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FDnjuvOcoIa7fQqHFcOtL%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=eee16f50&#x26;sv=2" alt=""><figcaption><p>How your USB drive should look if you have only SATA disks, and you are AM4</p></figcaption></figure>
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FI1Ew6lsCwwz2LC5m3X4T%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=aae50ff5&#x26;sv=2" alt=""><figcaption><p>How your USB drive should look if you have both SATA and NVMe disks, and you are AM4</p></figcaption></figure>
+
 ### AM5
 
 If the chipset checker has told you that you are AM5, head into the "am5" folder. Drag the "windows 10" folder to your USB drive. Should look like the below image:
 
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FrfS9bx5v1tJS5nqGpI4d%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=2ad65198&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
 Lastly, you should go to your motherboard's site, click on "Support/Drivers", find your WLAN (if you use WiFI) or LAN driver (if you use Ethernet), then download and place it onto your USB flash drive as well. This is because the driver may not automatically install after reinstalling Windows, leaving you without internet (guaranteed to happen with WIFI (WLAN). For LAN users, this happens often for INTEL ethernet cards. Usually, REALTEK Ethernet drivers install automatically, but there are cases in which it does not, so this is recommended in any case).
 
 Before we start the BIOS settings, save your current disk serial with [this checker](https://mega.nz/file/szYByCzL#IPauPyk4JpunLvLpFPxghV5BKlrRLbHmCNGLUKv7FZc) and send the screenshot in the ticket. The screenshot should look something like this:
+
+<figure><img src="https://perm-1.gitbook.io/blitz-perm/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2F9HSXS76SFRyfDd0dACNs%2Fblobs%2FNp1Aef1xBpCh0jOM0Ns2%2Fimage.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=b66f6ad3&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 Now, follow your corresponding BIOS and driver loading guide in one of the drop-downs below.
 

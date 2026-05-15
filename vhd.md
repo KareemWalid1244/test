@@ -5,8 +5,6 @@ icon: invision
 
 # VHD
 
-## VHD
-
 As Intel users are strongly advised to not RAID0 due to the flags caused by the array "leaking" serials, meaning your real disk serials are easily visible to the anticheat. We recommend a different solution, called a VHD (Virtual Hard Drive). Think of this as creating a sort of blanket over your disk serials. It may work, or it may not work. Either way, it is a good safety precaution to take.
 
 {% embed url="https://www.youtube.com/watch?embeds_referring_euri=https://cdn.iframe.ly/&source_ve_path=NzY3NTg&time_continue=0&v=rp_n-yrCD6Y" %}
