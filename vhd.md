@@ -12,7 +12,7 @@ Notes:
 * Slow down the video to 0.5x if you are not able to follow the steps at a faster speed
 * Once you have installed a game launcher onto your C drive (do NOT install the game launcher on the VHD), make sure you go into task manager and set it to disabled:
 
-<figure><img src="/files/K1DvCzzkffjiKCPB8Gtp" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/K1DvCzzkffjiKCPB8Gtp?alt=media" alt=""><figcaption></figcaption></figure>
 
 * EVERY TIME you login to Windows, you must go to the location of the VHD (WIN + r, shell:startup), right click it, and then click "Mount". You must do this BEFORE opening the game launcher.
 

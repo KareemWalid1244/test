@@ -23,18 +23,18 @@ You are EITHER following this reinstallation guide, or [RAID Reinstallation (AMD
 * Select **Create Installation Media (USB Flash Drive)**
 * **Select the option shown below**
 
-<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FkTwy4t36VXjCh63LxlQH%252Fgewgegwe.jpg%3Falt%3Dmedia%26token%3Dd9ec2820-d18a-4c25-901b-8dbfac1991b1&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=97e38cd&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/kTwy4t36VXjCh63LxlQH/gewgegwe.jpg?alt=media&token=d9ec2820-d18a-4c25-901b-8dbfac1991b1" alt=""><figcaption></figcaption></figure>
 
 \
 After the tool is finished, click **"Finish"**\
 \
 **Your USB flash drive should look like this:**
 
-<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FV71Ka3UpB4puSd7QNTqx%252Fgebwgewgew.jpg%3Falt%3Dmedia%26token%3Dc872a593-841a-4a4f-aacf-d4887ae428b7&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=9a39ba84&#x26;sv=2" alt=""><figcaption><p>May look slightly different if you used the Windows 11 tool, that's okay.</p></figcaption></figure>
+<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/V71Ka3UpB4puSd7QNTqx/gebwgewgew.jpg?alt=media&token=c872a593-841a-4a4f-aacf-d4887ae428b7" alt=""><figcaption><p>May look slightly different if you used the Windows 11 tool, that's okay.</p></figcaption></figure>
 
 Download [this file](https://mega.nz/file/47BEFIYQ#ayjjlRsHVNCNxKU0_cYxg357LCPhWAnOo1NZjl_jDRQ), then drag it to your USB flash drive along with the other Windows files. Now, your USB should look like this:
 
-<figure><img src="/files/3w1i1z71DWorVEpN2E58" alt=""><figcaption><p>This autounattend file will do a few things automatically. It will debloat your Windows of useless apps, automatically make a local account under the username "admin", disable BitLocker which is automatically enabled on Windows 11 installations, and set your region to the US unless you set it otherwise. Feel free to tweak the configuration of the autounattend to your liking on <a href="https://schneegans.de/windows/unattend-generator/">this site</a>.</p></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/3w1i1z71DWorVEpN2E58?alt=media" alt=""><figcaption><p>This autounattend file will do a few things automatically. It will debloat your Windows of useless apps, automatically make a local account under the username "admin", disable BitLocker which is automatically enabled on Windows 11 installations, and set your region to the US unless you set it otherwise. Feel free to tweak the configuration of the autounattend to your liking on <a href="https://schneegans.de/windows/unattend-generator/">this site</a>.</p></figcaption></figure>
 
 Lastly, you should:&#x20;
 
@@ -48,22 +48,22 @@ This is because the driver may not automatically install after reinstalling Wind
 
 While you are holding the SHIFT key, click Restart.
 
-<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FlP1rzfGRPqibDxUo2JNp%252Fimage.webp%3Falt%3Dmedia%26token%3Dbe4c571b-7a27-4fa8-8a5e-8aab8a49c8e5&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=494c8415&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/lP1rzfGRPqibDxUo2JNp/image.webp?alt=media&token=be4c571b-7a27-4fa8-8a5e-8aab8a49c8e5" alt=""><figcaption></figcaption></figure>
 
 * You will be on a blue screen with options to select. Select "**Use a device**"
 * Then, select the USB *(*&#x49;t can be called *"(USB Model Name) Partition 1" or "UEFI Removable Device")*
 
-<figure><img src="https://alexzeel.gitbook.io/~gitbook/image?url=https%3A%2F%2F2510878693-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F97LB4aFg4eLrczV2s3HQ%252Fuploads%252FwVMwPXLHV3j1Orqi9MyX%252Fimage%2520%281%29.webp%3Falt%3Dmedia%26token%3Ddd92d656-0840-4cc4-84af-2469b8367db7&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1586865d&#x26;sv=2" alt=""><figcaption><p>If this button doesn't show up, please set the USB drive to #1 in boot order/priority in BIOS settings (boot page/tab), then save and exit.</p></figcaption></figure>
+<figure><img src="https://2510878693-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces/97LB4aFg4eLrczV2s3HQ/uploads/wVMwPXLHV3j1Orqi9MyX/image (1).webp?alt=media&token=dd92d656-0840-4cc4-84af-2469b8367db7" alt=""><figcaption><p>If this button doesn't show up, please set the USB drive to #1 in boot order/priority in BIOS settings (boot page/tab), then save and exit.</p></figcaption></figure>
 
 * Click **"Install Now"**
 * Select your **language**
 * Once you arrive at this part of the reinstallation process, please select "Custom: Install Windows only (advanced)". Some may not have this option show up. That's fine, as long as you get to the screen with the partitions (next image shown below this one).
 
-<figure><img src="/files/eSiTQBhYRSwWTurDG0FV" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/eSiTQBhYRSwWTurDG0FV?alt=media" alt=""><figcaption></figcaption></figure>
 
 Once on the screen below, please proceed to click "Delete" on every partition possible, until the screen looks like this:
 
-<figure><img src="/files/xvSqixTDxFaiDUYEe0QH" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/xvSqixTDxFaiDUYEe0QH?alt=media" alt=""><figcaption></figcaption></figure>
 
 Keep in mind that if you have multiple drives, 2 for example, there will be a "Drive 1 Unallocated Space" along with "Drive 0 Unallocated Space", please make sure all drives have the "Unallocated" label in their name. If you have an SSD(s) + HDD(s), make sure you select the SSD's unallocated space before clicking next, or else your PC will be mega-slow.&#x20;
 

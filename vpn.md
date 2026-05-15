@@ -18,7 +18,7 @@ WINDSCRIBE - [Free 10GB Trial](https://windscribe.com/features/use-for-free/) (v
 
 As well, make sure to have the Firewall on "Auto".
 
-<figure><img src="/files/Gmyvi1Zp902Wkdf1egL0" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/Gmyvi1Zp902Wkdf1egL0?alt=media" alt=""><figcaption></figcaption></figure>
 
 
 ---
