@@ -1,23 +1,19 @@
 # TPM
 
+## TPM
+
 VALORANT/LOL, Ricochet (COD/BO7) and Fortnite (specifically in tournaments) bans/flags TPM, and requires it enabled.
 
 There are ways to solve this without getting delay banned:
 
-1. In some cases, specifically with:&#x20;
+1. In some cases, specifically with:
 
 * GIGABYTE, MSI, and ASRock motherboards on an INTEL CPU
 * AM4 motherboards with one of the newest BIOS patch that fixes some TPM security issues:
 
-  <figure><img src="/files/ZKkqb2xQXbMOptQ0xcST" alt=""><figcaption></figcaption></figure>
-
-  <figure><img src="/files/wA6A9cg6tK87cf2J4owS" alt=""><figcaption><p>Examples of what to look for, for Gigabyte it will be a "TPM-B FW" patch.</p></figcaption></figure>
-
 The TPM serial will change after flashing BIOS, if you have this security patch OR if you are GIGABYTE, MSI, and ASRock motherboards on an INTEL CPU. To check if this applies to you, enable TPM, download [this TPM checker](https://mega.nz/file/AmI2mbCL#u3CUEgrg592OyiuIwGuSwWkx28fzfriTWhOnSvYViIw), run it as admin, then send a screenshot of the output in your ticket, like so:
 
-<figure><img src="/files/Us5sO1Mz7TG2cn8OJkKl" alt=""><figcaption></figcaption></figure>
-
-Then, follow the video in [Flashing BIOS](/blitz-perm/preparation/flashing-bios.md) . Please note for Intel; If available, please use your motherboard's BIOS flashback button (a physical button usually near your USB ports or on your motherboard directly) for a guaranteed chance of this working. Please make sure the version you flash to is compatible with your CPU. If the SHA256 value (refer to the above image) changes after flashing BIOS, your TPM has been spoofed.
+Then, follow the video in [Flashing BIOS](blitz-perm/preparation/flashing-bios.md) . Please note for Intel; If available, please use your motherboard's BIOS flashback button (a physical button usually near your USB ports or on your motherboard directly) for a guaranteed chance of this working. Please make sure the version you flash to is compatible with your CPU. If the SHA256 value (refer to the above image) changes after flashing BIOS, your TPM has been spoofed.
 
 If the above method does not work, you can try our confirmed working method below. Please note:
 
@@ -28,18 +24,16 @@ If the above method does not work, you can try our confirmed working method belo
 1. Prepare the USB\
    Plug in a USB drive.\
    Download Rufus from:\
-   <https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11p.exe>\
+   [https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11p.exe](https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11p.exe)\
    Download Linux Mint from:\
-   <https://pub.linuxmint.io/stable/22.2/linuxmint-22.2-cinnamon-64bit.iso>
+   [https://pub.linuxmint.io/stable/22.2/linuxmint-22.2-cinnamon-64bit.iso](https://pub.linuxmint.io/stable/22.2/linuxmint-22.2-cinnamon-64bit.iso)
 2. Create the bootable USB\
    Open Rufus.\
    Select the Linux Mint ISO.\
    Select your USB drive.\
-   Change Partition Scheme from MBR to GPT.&#x20;
+   Change Partition Scheme from MBR to GPT.
 
 Below is an image of how it should look:
-
-<p align="center"><img src="/files/49SCQxV9kQHhnM0Tv58G" alt=""></p>
 
 \
 If it matches, start the process and wait for it to finish.
@@ -86,24 +80,4 @@ Then copy all 7 commands below, and paste the entire thing into the terminal, th
    Plug the USB back in, format it, then unplug it again.
 9. Check if your TPM serials has changed (SEND THE SCREENSHOT OF NEW TPM SERIAL IN YOUR TICKET AS WELL), and check if your TPM status is "ready for use" in tpm.msc
 
-<figure><img src="/files/gr1nucOBn3pbnAimsU6g" alt=""><figcaption><p>Your "Status" section should look like the one in the image.</p></figcaption></figure>
-
 If all is correct, then your TPM is spoofed.
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://perm-1.gitbook.io/blitz-perm/valorant-lol-fn-tourneys-cod-bo7/tpm.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

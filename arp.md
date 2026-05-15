@@ -1,5 +1,7 @@
 # ARP
 
+## ARP
+
 If your ARP is flagged in, for example, Fortnite, one or two things will occur:
 
 * You could get 24hr banned on a few reports (Can also be caused from not RAIDing correctly)
@@ -16,24 +18,6 @@ To fix this issue and change your ARP, read below.
 2. This next method involves essentially using your phone as a mini-router, and may result in slightly slower speeds (depends on the phone, and your router/data plan). However, on the plus side, this method doesn't need to you to spend any money!
 
 * Disable onboard LAN controller, WiFi, Bluetooth in BIOS
-* Grab a normal charging cable (cannot be a short-length one) that can connect your phone to your computer (USB-C to USB-A in most cases), and plug your phone in to your PC using the cable.&#x20;
+* Grab a normal charging cable (cannot be a short-length one) that can connect your phone to your computer (USB-C to USB-A in most cases), and plug your phone in to your PC using the cable.
   * Then, for Android phones, select USB tethering in the notification option (device connection), and it should connect automatically. (This will use the Android phone's WiFi connection, not your data). The connection will show up as an Ethernet type connection in your "Network Connections" (WIN + r, NCPA.CPL) window if done correctly
   * For iPhones, it's slightly more complicated. You need to install the iTunes desktop app, then turn on your hotspot on your phone, plug it into your PC, and a prompt will come up in the iTunes app. Confirm it, then it should connect (it will unfortunately use your phone data on iPhones). The connection will show up as an Ethernet type connection in your "Network Connections" (WIN + r, NCPA.CPL) window if done correctly
-
-
----
-
-# Agent Instructions: Querying This Documentation
-
-If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
-
-Perform an HTTP GET request on the current page URL with the `ask` query parameter:
-
-```
-GET https://perm-1.gitbook.io/blitz-perm/arp-tables-fn-tourneys-faceit-vgk/arp.md?ask=<question>
-```
-
-The question should be specific, self-contained, and written in natural language.
-The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
-
-Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

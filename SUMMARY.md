@@ -1,7 +1,6 @@
-# Summary
+# Table of contents
 
-* [Blitz Perm](blitz-perm.md)
-* [Windows Reinstall](windows-reinstall.md)
+* [Windows Reinstall](welcome-page.md)
 * [RAID Reinstallation (AMD)](raid-reinstallation-amd.md)
 * [Flashing BIOS](flashing-bios.md)
 * [BIOS Configurations](bios-configurations.md)
