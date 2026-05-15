@@ -12,5 +12,5 @@ icon: hand-wave
 
 **If you run into any issues or are stuck on a step/confused, please open a ticket and contact our support for help. You should need to open a ticket anyways in order to comply with what the guide says.**
 
-[Discord Invite Link](https://discord.gg/joonysoftware)
+[Discord Invite Link](https://discord.gg/cookiebunker)
 
